@@ -36,7 +36,7 @@ The download link can be refered in <https://data.vision.ee.ethz.ch/cvl/webvisio
 
 ~~We used the downsampled (256 * 256) version for convenience.~~
 
-To improve performance, it is strongly encouraged to download the original sized version. Our preliminary experiments find that there exists a **noticeable** gap between the model trained on the resized and the original version.
+To improve performance, it is strongly encouraged to download the original sized version. Our preliminary experiments find that there exists a **noticeable** gap between the model trained on the resized and the original version. All experimental results are reported on the original version.
 
 Download the dataset into ```./dataset/webvision1k```.
 
@@ -69,17 +69,29 @@ Please check the ```./tfrecord/encode_tfrecord.py``` and fill in the root path o
 
 Please make sure the path is correct.
 
-The dataset folder with examplar pathlist files can be downloaded in <https://drive.google.com/file/d/1r9s8OCsYQ4bkyG_66n9990LUxvFk5vcN/view?usp=share_link>. The results of tfrecord packaging should be similar to those exampler files. We refer to 
+The dataset folder with examplar pathlist files can be downloaded in <https://drive.google.com/file/d/1r9s8OCsYQ4bkyG_66n9990LUxvFk5vcN/view?usp=share_link>. The results of tfrecord packaging should be similar to those exampler files.
 
 
-### WebVision1k/ImageNet1k & Google500/ImageNet1k filelist
-The filelist can be referred in SCC <https://github.com/bigvideoresearch/SCC>.
+### WebVision1k/ImageNet1k & Google500/ImageNet500 & NUS-WIDE (Web) filelist
+The google500 filelist (filenames and categories) can be referred in SCC <https://github.com/bigvideoresearch/SCC>.
 
-For compatibility, we keep all image filelist in ```./dataset/webvision1k/filelist```.
-* Text files that end with "_tf.txt" refer to the format in TF-Record.
-* Text files that just end with ".txt" refer to the format in ".jpg" or ".jpeg".
+For compatibility, we keep all used filelist in ```./filelist```. Please download all the filelists from <https://drive.google.com/file/d/1gpGHhTrDH9UDuZwqYmOoXV06ynBZefrN/view?usp=share_link> for experiments on WebVision1k/Google500 and NUS-WIDE (Web).
 
+Text files that end with "_tf.txt" refer to the format in TF-Record.
+Some examples below:
+* WebVision1k
+    * Train: ```filelist/train_filelist_webvision_1k_usable_tf_knn_rerank_smoothed_meta_minilm.txt```
+    * Val WebVision1k: ```filelist/val_webvision_1k_usable_tf.txt```
+    * Val ImageNet1k: ```filelist/val_imagenet_1k_usable_tf.txt```
 
+* Google500
+    * Train: ```filelist/train_filelist_google_500_usable_tf_knn_rerank_smoothed_meta_minilm.txt```
+    * Val Google500: ```filelist/val_webvision_500_usable_tf.txt```
+    * Val ImageNet500: ```filelist/val_imagenet_500_usable_tf.txt```
+
+* NUS-WIDE-WEB
+    * Train: ```filelist/train_nus_81_tf_knn_rerank_smoothed_meta_minilm.txt```
+    * Val: ```filelist/val_nus_81_tf.txt```
 
 
 <!-- ## Pretrained Weights
