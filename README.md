@@ -93,65 +93,31 @@ Some examples below:
     * Train: ```filelist/train_nus_81_tf_knn_rerank_smoothed_meta_minilm.txt```
     * Val: ```filelist/val_nus_81_tf.txt```
 
+## Pre-training (vanilla) Weights
+We provide the pretrained model weights in the ```vanilla_ckpt``` folder. Please download it from <https://drive.google.com/file/d/1cLBJ_-_KsUnScP0y739CAg5qOoT0yhdS/view?usp=sharing>.
 
-<!-- ## Pretrained Weights
-### BCNN (VGG16)
-For experiments on fine-grained datasets, please use the ```--pretrained``` flag to load the pretrained weights of pytorch torchvision models.
 
-### ResNet50
-For experiments on large-scale datasets, please use the MoPro pretrained weights by downloading it from MoPro <https://github.com/salesforce/MoPro> and put the checkpoint weights as ```./ckpt_mopro/MoPro_V1_epoch90.tar```.
+## Training Shells
+All the scripts can be found in the folder ```shells```.
+* WebVision1k
+    * training: ```shells/webvision1000/meta_proto.sh```
+    * finetune(optional): ```shells/webvision1000/noise_clean.sh```
+* Google500
+    * training: ```shells/google500/meta_proto.sh```
+    * finetune(optional): ```shells/google500/noise_clean.sh```
+* NUS-WIDE-WEB
+    * training: ```shells/nuswide81/meta_proto.sh```
+    * finetune(optional): ```shells/nuswide81/noise_clean.sh```
 
-## Training
-All the scripts can be found in ```./shells```.
-### Few-Shot
-Please replace the ```$pathlist_t``` with the corresponding path to the K-shot pathlist.
-### Zero-Shot (Only Trained with Web Images)
-Please remove the flag ```--use_fewshot``` in the script.
+Enlightened by MoPro <https://arxiv.org/abs/2009.07995>, noise cleaning on the WebVision1k/Google500 dataset can be performed to further reduce the noise and improve performance by fine-tuning.
+For example, use the script ```shells/webvision1000/noise_clean.sh``` for noise cleaning and fine-tuning on WebVision1k/Google500 with Mix-Up <https://arxiv.org/abs/1710.09412> strategy.
 
-For example,
-* use the script ```./shells/web-aircraft.sh``` for the training of BCNN models on web-aircraft.
-* use the script ```./shells/webvision1k.sh``` for the training of ResNet models on WebVision1k.
+## Training Weights
+We provide the model weights in the ```ckpt``` folder. Please check the evaluation shells for inference.
 
-## Evaluation
-
-### Demo
-All the scripts can be found in ```./eval_shells```.
-
-For example,
-* use the script ```./eval_shells/web-aircraft.sh``` for the evaluation of BCNN models on FGVC-Aircraft.
-* use the script ```./eval_shells/webvision1k.sh``` for the evaluation of ResNet50 models on ImageNet1k.
-
-### Model Weights
-We provide the model weights in the ```./ckpt``` folder. Please check the evaluation shells for inference.
-
-## Post-Processing
-Enlightened by MoPro <https://openreview.net/forum?id=0-EYBhgw80y>, noise cleaning on the WebVision1k dataset can be performed to further reduce the noise and improve performance by fine-tuning.
-For example,
-* use the script ```./shells/webvision1k_ft.sh``` for noise cleaning and fine-tuning on WebVision1k with Mix-Up <https://arxiv.org/abs/1710.09412> strategy.
-
-## Hyper-parameters Tuning
+## Hyper-parameters
 All the hyper-parameters are defined in ```./config_train.py```.
 
-Preliminary experiments show that the $\beta=0.5=1-\alpha$ and $\gamma=0.6$ perform better than $\beta=0, 0.25, 0.75, 1$ and $\gamma=0.2$ on three fine-grained datasets (webFG496).
-
-Other hyper-parameters are yet to be fine-tuned. Their current value is empirically set.
-
-It remains to be explored which value of the distance threshold ```dist_th``` works best on picking out clean examples. One could design a threshold whose value varies with respect to epoch or loss.
-
-## Results
-The comparison with state-of-the-art methods on WebFG496 and WebVision1k/Google500 datasets demonstrates the effectiveness of FoPro in utilization of real-world fewshots.
-![results](./imgs/img2.jpg "Results of comparison with SOTA.") -->
-
-
-<!-- ## Citation
-If you find this useful in your research, please consider citation of our work <https://arxiv.org/abs/2212.00465>:
-```
-@article{FoPro,
-	title={FoPro: Few-Shot Guided Robust Webly-Supervised Prototypical Learning},
-	author={Yulei Qin, Xingyu Chen, Chao Chen, Yunhang Shen, Bo Ren, Yun Gu, Jie
-  Yang, Chunhua Shen},
-	journal={AAAI},
-	year={2023}
-}
-``` -->
-
+## Acknowledgement
+We would like to thank authors of SCC <https://arxiv.org/abs/2008.11894> for their instruction on reproduction of SCC results on WebVision1k/Google500.
+We also show gratitude to MoPro <https://arxiv.org/abs/2009.07995> for releasing code to the development of webly-supervised learning research.
