@@ -117,7 +117,7 @@ For example, use the script ```shells/webvision1000/noise_clean.sh``` for noise 
 
 
 ## Training Weights
-We provide the model weights in the ```ckpt``` folder. Please check the evaluation shells for inference.
+We provide the model weights in the ```ckpt``` folder. Please download it from <https://drive.google.com/file/d/1FpazfXlPfFdb7HcQcrz6brZ5m2Ym3aCe/view?usp=sharing>.
 
 ## Hyper-parameters
 All the hyper-parameters are defined in ```./config_train.py```.
