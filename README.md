@@ -119,9 +119,18 @@ For example, use the script ```shells/webvision1000/noise_clean.sh``` for noise 
 ## Training Weights
 We provide the model weights in the ```ckpt``` folder. Please download it from <https://drive.google.com/file/d/1FpazfXlPfFdb7HcQcrz6brZ5m2Ym3aCe/view?usp=sharing>.
 
+
 ## Hyper-parameters
 All the hyper-parameters are defined in ```./config_train.py```.
 
+
+## Graph Building with K-reciprocal NN Reranking
+
+All graph-related processing codes are in the folder ```graph```. We refer to <https://github.com/bigvideoresearch/SCC> for SGC smoothing.
+
+
 ## Acknowledgement
-We would like to thank authors of SCC <https://arxiv.org/abs/2008.11894> for their instruction on reproduction of SCC results on WebVision1k/Google500.
+We would like to thank authors of SCC/VSGraph-LC <https://arxiv.org/abs/2008.11894> for their instruction on reproduction of SCC results on WebVision1k/Google500.
 We also show gratitude to MoPro <https://arxiv.org/abs/2009.07995> for releasing code to the development of webly-supervised learning research.
+
+
