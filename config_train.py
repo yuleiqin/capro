@@ -28,15 +28,17 @@ parser.add_argument('--topk', type=int, default=50,
                     help='TOP K fewshots')
 parser.add_argument('--use_fewshot', action='store_true', default=False,
                     help='use fewshot dataset for training')  
-parser.add_argument('--use_soft_label', type=int, default=0,
+parser.add_argument('--use_soft_label', type=int, default=7,
                     help='use soft-label for \
                     training the global classifier\
                     softlabel=0(none); softlabel=1(bootstrapping)\
                     softlabel=2(label smoothing); softlabel=3(SCC)\
                     softlabel=4(SCC+); softlabel=5(NCR);\
-                    softlabel=6(memorybank)')
+                    softlabel=6(memorybank), softlabel=7(collective bootstrapping)')
 parser.add_argument('--beta', default=0.1, type=float,
-                    help='weight to combine soft and hard target classification')
+                    help='weight to combine soft and hard\
+                    target classification\
+                    (including weight for collective boostrapping loss)')
 parser.add_argument('--mixup', action='store_true', default=False,
                     help='use mix-up for classifier finetune')
 
