@@ -28,8 +28,6 @@ parser.add_argument('--topk', type=int, default=50,
                     help='TOP K fewshots')
 parser.add_argument('--use_fewshot', action='store_true', default=False,
                     help='use fewshot dataset for training')  
-parser.add_argument('--input_HR', action='store_true', default=True,
-                    help='transform resize scale 448/512')
 parser.add_argument('--use_soft_label', type=int, default=0,
                     help='use soft-label for \
                     training the global classifier\
