@@ -100,17 +100,21 @@ We provide the pretrained model weights in the ```vanilla_ckpt``` folder. Please
 ## Training Shells
 All the scripts can be found in the folder ```shells```.
 * WebVision1k
-    * training: ```shells/webvision1000/meta_proto.sh```
-    * finetune(optional): ```shells/webvision1000/noise_clean.sh```
+    * step1 pre-training: ```shells/webvision1000/vanilla.sh```
+    * step2 training: ```shells/webvision1000/meta_proto.sh```
+    * step3 fine-tuning: ```shells/webvision1000/noise_clean.sh```
 * Google500
-    * training: ```shells/google500/meta_proto.sh```
-    * finetune(optional): ```shells/google500/noise_clean.sh```
+    * step1 pre-training: ```shells/google500/vanilla.sh```
+    * step2 training: ```shells/google500/meta_proto.sh```
+    * step3 fine-tuning: ```shells/google500/noise_clean.sh```
 * NUS-WIDE-WEB
-    * training: ```shells/nuswide81/meta_proto.sh```
-    * finetune(optional): ```shells/nuswide81/noise_clean.sh```
+    * step1 pre-training: ```shells/nuswide81/vanilla.sh```
+    * step2 training: ```shells/nuswide81/meta_proto.sh```
+    * step3 fine-tuning: ```shells/nuswide81/noise_clean.sh```
 
-Enlightened by MoPro <https://arxiv.org/abs/2009.07995>, noise cleaning on the WebVision1k/Google500 dataset can be performed to further reduce the noise and improve performance by fine-tuning.
-For example, use the script ```shells/webvision1000/noise_clean.sh``` for noise cleaning and fine-tuning on WebVision1k/Google500 with Mix-Up <https://arxiv.org/abs/1710.09412> strategy.
+Enlightened by MoPro <https://arxiv.org/abs/2009.07995>, noise cleaning on the training dataset can be performed to further reduce the noise and improve performance by fine-tuning the classifier.
+For example, use the script ```shells/webvision1000/noise_clean.sh``` for noise cleaning and fine-tuning on WebVision1k with Mix-Up <https://arxiv.org/abs/1710.09412> strategy.
+
 
 ## Training Weights
 We provide the model weights in the ```ckpt``` folder. Please check the evaluation shells for inference.
