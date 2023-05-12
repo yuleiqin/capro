@@ -6,7 +6,7 @@ However,
 most existing methods on learning with label noise become subject to realistic noise in web datasets,
 for the simple reason that their assumption on clean samples may not hold true.
 For example,
-web images retrieved by queries of ``tiget cat" and ``drumstick" are almost dominated by images of tiger and chicken dish,
+web images retrieved by queries of ``tiget cat`` and ``drumstick`` are almost dominated by images of tiger and chicken dish,
 which exacerbates learning representations for the fine-grained cat species and musical instrument.
 In this case,
 exploitation of both web images and their associated texts turns out to be a feasible-and-requisite solution to combat noise of various kinds.
