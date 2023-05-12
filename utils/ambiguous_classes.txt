@@ -1,0 +1,235 @@
+n01494475	Synset('hammerhead.n.03')	medium-sized live-bearing shark with eyes at either end of a flattened hammer-shaped head; worldwide in warm waters; can be dangerous
+n01514668	Synset('cock.n.05')	adult male bird
+n01514859	Synset('hen.n.02')	adult female bird
+n01518878	Synset('ostrich.n.02')	fast-running African flightless bird with two-toed feet; largest living bird
+n01531178	Synset('goldfinch.n.02')	small European finch having a crimson face and yellow-and-black wings
+n01558993	Synset('robin.n.02')	large American thrush having a rust-red breast and abdomen
+n01580077	Synset('jay.n.02')	crested largely blue bird
+n01582220	Synset('magpie.n.01')	long-tailed black-and-white crow that utters a raucous chattering call
+n01608432	Synset('kite.n.04')	any of several small graceful hawks of the family Accipitridae having long pointed wings and feeding on insects and small animals
+n01616318	Synset('vulture.n.01')	any of various large diurnal birds of prey having naked heads and weak claws and feeding chiefly on carrion
+n01632458	Synset('spotted_salamander.n.01')	glossy black North American salamander with yellow spots
+n01644373	Synset('tree_frog.n.02')	any of various Old World arboreal frogs distinguished from true frogs by adhesive suckers on the toes
+n01664065	Synset('loggerhead.n.02')	very large carnivorous sea turtle; wide-ranging in warm open seas
+n01756291	Synset('sidewinder.n.01')	small pale-colored desert rattlesnake of southwestern United States; body moves in an s-shaped curve
+n01770393	Synset('scorpion.n.03')	arachnid of warm dry regions having a long segmented tail ending in a venomous stinger
+n01774750	Synset('tarantula.n.02')	large hairy tropical spider with fangs that can inflict painful but not highly venomous bites
+n01806143	Synset('peacock.n.02')	male peafowl; having a crested head and very large fanlike tail marked with iridescent eyes or spots
+n01806567	Synset('quail.n.02')	small gallinaceous game birds
+n01807496	Synset('partridge.n.03')	small Old World gallinaceous game birds
+n01847000	Synset('drake.n.02')	adult male of a wild or domestic duck
+n01855672	Synset('goose.n.01')	web-footed long-necked typically gregarious migratory aquatic birds usually larger and less aquatic than ducks
+n01872401	Synset('echidna.n.02')	a burrowing monotreme mammal covered with spines and having a long snout and claws for hunting ants and termites; native to Australia
+n01910747	Synset('jellyfish.n.02')	any of numerous usually marine and free-swimming coelenterates that constitute the sexually reproductive forms of hydrozoans and scyphozoans
+n01945685	Synset('slug.n.07')	any of various terrestrial gastropods having an elongated slimy body and no external shell
+n01978287	Synset('dungeness_crab.n.02')	small edible crab of Pacific coast of North America
+n01981276	Synset('king_crab.n.03')	large edible crab of northern Pacific waters especially along the coasts of Alaska and Japan
+n01983481	Synset('american_lobster.n.02')	lobster of Atlantic coast of America
+n01984695	Synset('spiny_lobster.n.02')	large edible marine crustacean having a spiny carapace but lacking the large pincers of true lobsters
+n01985128	Synset('crayfish.n.03')	small freshwater decapod crustacean that resembles a lobster
+n02012849	Synset('crane.n.05')	large long-necked wading bird of marshes and plains in many parts of the world
+n02058221	Synset('albatross.n.02')	large web-footed birds of the southern hemisphere having long narrow wings; noted for powerful gliding flight
+n02096177	Synset('cairn.n.02')	small rough-haired breed of terrier from Scotland
+n02098413	Synset('lhasa.n.02')	a breed of terrier having a long heavy coat raised in Tibet as watchdogs
+n02105412	Synset('kelpie.n.02')	an Australian sheepdog with pointed ears
+n02108089	Synset('boxer.n.04')	a breed of stocky medium-sized short-haired dog with a brindled coat and square-jawed muzzle developed in Germany
+n02110341	Synset('dalmatian.n.02')	a large breed having a smooth white coat with black or brown spots; originated in Dalmatia
+n02111277	Synset('newfoundland.n.01')	a breed of very large heavy dogs with a thick coarse usually black coat; highly intelligent dogs and vigorous swimmers; developed in Newfoundland
+n02111889	Synset('samoyed.n.03')	Siberian breed of white or cream-colored dog of the spitz family
+n02112137	Synset('chow.n.03')	breed of medium-sized dogs with a thick coat and fluffy curled tails and distinctive blue-black tongues; believed to have originated in northern China
+n02119022	Synset('red_fox.n.03')	the common Old World fox; having reddish-brown fur; commonly considered a single circumpolar species
+n02119789	Synset('kit_fox.n.01')	small grey fox of southwestern United States; may be a subspecies of Vulpes velox
+n02123045	Synset('tabby.n.01')	a cat with a grey or tawny coat mottled with black
+n02123159	Synset('tiger_cat.n.02')	a cat having a striped coat
+n02129604	Synset('tiger.n.02')	large feline of forests in most of Asia having a tawny coat with black stripes; endangered
+n02206856	Synset('bee.n.01')	any of numerous hairy-bodied insects including social and solitary species
+n02226429	Synset('grasshopper.n.01')	terrestrial plant-eating insect with hind legs adapted for leaping
+n02231487	Synset('walking_stick.n.02')	any of various mostly tropical insects having long twiglike bodies
+n02276258	Synset('admiral.n.02')	any of several brightly colored butterflies
+n02277742	Synset('ringlet.n.04')	any of various butterflies belonging to the family Satyridae
+n02279972	Synset('monarch.n.02')	large migratory American butterfly having deep orange wings with black and white markings; the larvae feed on milkweed
+n02328150	Synset('angora.n.03')	domestic breed of rabbit with long white silky hair
+n02363005	Synset('beaver.n.07')	large semiaquatic rodent with webbed hind feet and a broad flat tail; construct complex dams and underwater lodges
+n02364673	Synset('guinea_pig.n.02')	stout-bodied nearly tailless domesticated cavy; often kept as a pet and widely used in research
+n02389026	Synset('sorrel.n.05')	a horse of a brownish orange to light brown color
+n02403003	Synset('ox.n.01')	an adult castrated bull of the genus Bos; especially Bos taurus
+n02412080	Synset('ram.n.05')	uncastrated adult male sheep
+n02415577	Synset('bighorn.n.02')	wild sheep of mountainous regions of western North America having massive curled horns
+n02442845	Synset('mink.n.03')	slender-bodied semiaquatic mammal having partially webbed feet; valued for its fur
+n02443114	Synset('polecat.n.02')	dark brown mustelid of woodlands of Eurasia that gives off an unpleasant odor when threatened
+n02444819	Synset('otter.n.02')	freshwater carnivorous mammal having webbed and clawed feet and dark brown fur
+n02445715	Synset('skunk.n.04')	American musteline mammal typically ejecting an intensely malodorous fluid when startled; in some classifications put in a separate subfamily Mephitinae
+n02492035	Synset('capuchin.n.02')	monkey of Central America and South America having thick hair on the head that resembles a monk's cowl
+n02493509	Synset('titi.n.03')	small South American monkeys with long beautiful fur and long nonprehensile tail
+n02526121	Synset('eel.n.02')	voracious snakelike marine or freshwater fishes with smooth slimy usually scaleless skin and having a continuous vertical fin but no ventral fins
+n02536864	Synset('coho.n.02')	small salmon of northern Pacific coasts and the Great Lakes
+n02641379	Synset('gar.n.01')	primitive predaceous North American fish covered with hard scales and having long jaws with needlelike teeth
+n02666196	Synset('abacus.n.02')	a calculator that performs arithmetic functions by manually sliding counters on rods or in grooves
+n02699494	Synset('altar.n.02')	a raised structure on which gifts or sacrifices to a god are made
+n02704792	Synset('amphibian.n.01')	a flat-bottomed motor vehicle that can travel on land or water
+n02730930	Synset('apron.n.01')	a garment of cloth or leather or plastic that is tied about the waist and worn to protect your clothing
+n02782093	Synset('balloon.n.01')	large tough nonrigid bag filled with gas or heated air
+n02786058	Synset('band_aid.n.01')	trade name for an adhesive bandage to cover small cuts or blisters
+n02788148	Synset('bannister.n.02')	a railing at the side of a staircase or balcony to prevent people from falling
+n02793495	Synset('barn.n.01')	an outlying farm building for storing grain or animal feed and housing farm animals
+n02795169	Synset('barrel.n.02')	a cylindrical container that holds liquids
+n02797295	Synset('barrow.n.03')	a cart for carrying small loads; has handles and one or more wheels
+n02799071	Synset('baseball.n.02')	a ball used in playing baseball
+n02802426	Synset('basketball.n.02')	an inflated ball used in playing basketball
+n02804414	Synset('bassinet.n.01')	a basket (usually hooded) used as a baby's bed
+n02814860	Synset('beacon.n.03')	a tower with a light that gives warning of shoals to passing ships
+n02817516	Synset('bearskin.n.02')	tall hat; worn by some British soldiers on ceremonial occasions
+n02834397	Synset('bib.n.01')	top part of an apron; covering the chest
+n02837789	Synset('bikini.n.02')	a woman's very brief bathing suit
+n02840245	Synset('binder.n.03')	holds loose papers or magazines
+n02860847	Synset('bobsled.n.02')	a long racing sled (for 2 or more people) with a steering mechanism
+n02869837	Synset('bonnet.n.01')	a hat tied under the chin
+n02892201	Synset('brass.n.07')	a memorial made of brass
+n02906734	Synset('broom.n.01')	a cleaning implement for sweeping; bundle of straws or twigs attached to a long handle
+n02909870	Synset('bucket.n.01')	a roughly cylindrical vessel that is open at the top
+n02910353	Synset('buckle.n.01')	fastener that fastens together two ends of a belt or strap; often has loose prong
+n02948072	Synset('candle.n.01')	stick of wax with a wick in the middle
+n02950826	Synset('cannon.n.02')	heavy gun fired from a tank
+n02966193	Synset('carousel.n.02')	a large, rotating machine with seats for children to ride or amusement
+n02971356	Synset('carton.n.02')	a box made of cardboard; opens by flaps on top
+n02980441	Synset('castle.n.02')	a large building formerly occupied by a ruler and fortified against attack
+n02999410	Synset('chain.n.03')	a series of (usually metal) rings or links fitted into one another to make a flexible ligament
+n03014705	Synset('chest.n.02')	box with a lid; used for storage; usually large and sturdy
+n03047690	Synset('clog.n.01')	footwear usually with wooden soles
+n03100240	Synset('convertible.n.01')	a car that has top that can be folded or removed
+n03126707	Synset('crane.n.04')	lifts and moves heavy objects; lifting tackle is suspended from a pivoted boom that rotates around a vertical axis
+n03127925	Synset('crate.n.01')	a rugged box (usually made of wood); used for shipping
+n03141823	Synset('crutch.n.01')	a wooden or metal staff that fits under the armpit and reaches to the ground; used by disabled person while walking
+n03188531	Synset('diaper.n.01')	garment consisting of a folded cloth drawn up between the legs and fastened at the waist; worn by infants to catch excrement
+n03207941	Synset('dishwasher.n.01')	a machine for washing dishes
+n03216828	Synset('dock.n.05')	landing in a harbor next to a pier where ships are loaded and unloaded or repaired; may have gates to let water in or out
+n03220513	Synset('dome.n.04')	a hemispherical roof
+n03223299	Synset('doormat.n.02')	a mat placed outside an exterior door for wiping the shoes before entering
+n03249569	Synset('drum.n.01')	a musical percussion instrument; usually consists of a hollow cylinder with a membrane stretched across each end
+n03250847	Synset('drumstick.n.02')	a stick used for playing a drum
+n03255030	Synset('dumbbell.n.01')	an exercising weight; two spheres connected by a short bar that serves as a handle
+n03259280	Synset('dutch_oven.n.01')	an oven consisting of a metal box for cooking in front of a fire
+n03337140	Synset('file.n.03')	office furniture consisting of a container for keeping papers in order
+n03355925	Synset('flagpole.n.02')	a tall staff or pole on which a flag is raised
+n03372029	Synset('flute.n.01')	a high-pitched woodwind instrument; a slender tube closed at one end with finger holes on one end and an opening near the closed end across which the breath is blown
+n03388043	Synset('fountain.n.01')	a structure from which an artificially produced jet of water arises
+n03443371	Synset('goblet.n.01')	a drinking glass with a base and stem
+n03447447	Synset('gondola.n.02')	long narrow flat-bottomed boat propelled by sculling; traditionally used on canals of Venice
+n03450230	Synset('gown.n.01')	a woman's dress, usually with a close-fitting bodice and a long flared skirt, often worn on formal occasions
+n03459775	Synset('grille.n.02')	grating that admits cooling air to car's radiator
+n03467068	Synset('guillotine.n.02')	instrument of execution that consists of a weighted blade between two vertical poles; used for beheading people
+n03478589	Synset('half_track.n.01')	a motor vehicle propelled by half tracks; frequently used by the military
+n03481172	Synset('hammer.n.02')	a hand tool with a heavy rigid head and a handle; used to deliver an impulsive force by striking
+n03495258	Synset('harp.n.01')	a chordophone that has a triangular frame consisting of a sounding board and a pillar and a curved neck; the strings stretched between the neck and the soundbox are plucked with the fingers
+n03527444	Synset('holster.n.01')	a sheath (usually leather) for carrying a handgun
+n03530642	Synset('honeycomb.n.02')	a framework of hexagonal cells resembling the honeycomb built by bees
+n03532672	Synset('hook.n.04')	a mechanical device that is curved or bent to suspend or hold or pull something
+n03584829	Synset('iron.n.04')	home appliance consisting of a flat metal base that is heated and used to smooth cloth
+n03590841	Synset('jack-o'-lantern.n.02')	lantern carved from a pumpkin
+n03594734	Synset('jean.n.01')	(usually plural) close-fitting trousers of heavy denim for manual work or casual wear
+n03602883	Synset('joystick.n.02')	a manual control consisting of a vertical handle that can move freely in two directions; used as an input device to computers or to devices controlled by computers
+n03627232	Synset('knot.n.02')	any of various fastenings formed by looping and tying a rope (or cord) upon itself or to another rope or to another object
+n03661043	Synset('library.n.05')	a building that houses a collection of books and other materials
+n03673027	Synset('liner.n.04')	a large commercial ship (especially one that carries passengers on a regular schedule)
+n03680355	Synset('loafer.n.02')	a low leather step-in shoe; the top resembles a moccasin but it has a broad flat heel
+n03690938	Synset('lotion.n.01')	any of various cosmetic preparations that are applied to the skin
+n03709823	Synset('mailbag.n.02')	letter carrier's shoulder bag
+n03710193	Synset('mailbox.n.01')	a private box for delivery of mail
+n03710637	Synset('maillot.n.02')	tights for dancers or gymnasts
+n03710721	Synset('maillot.n.01')	a woman's one-piece bathing suit
+n03724870	Synset('mask.n.01')	a covering to disguise or conceal the face
+n03733281	Synset('maze.n.01')	complex system of paths or tunnels in which it is easy to get lost
+n03761084	Synset('microwave.n.02')	kitchen appliance that cooks food by passing an electromagnetic wave through it; heat results from the absorption of energy by the water molecules in the food
+n03782006	Synset('monitor.n.05')	electronic equipment that is used to check the quality or content of electronic transmissions
+n03786901	Synset('mortar.n.03')	a bowl-shaped vessel in which substances can be ground and mixed with a pestle
+n03787032	Synset('mortarboard.n.02')	an academic cap with a flat square with a tassel on top
+n03793489	Synset('mouse.n.04')	a hand-operated electronic device that controls the coordinates of a cursor on your computer screen as you move it around on a pad; on the bottom of the device is a ball that rolls on the surface of the pad
+n03803284	Synset('muzzle.n.03')	a leather or wire restraint that fits over an animal's snout (especially a dog's nose and jaws) and prevents it from eating or biting
+n03804744	Synset('nail.n.02')	a thin pointed piece of metal that is hammered into materials as a fastener
+n03825788	Synset('nipple.n.02')	a flexible cap on a baby's feeding bottle or pacifier
+n03832673	Synset('notebook.n.02')	a small compact portable computer
+n03837869	Synset('obelisk.n.01')	a stone pillar having a rectangular cross section tapering towards a pyramidal top
+n03871628	Synset('packet.n.03')	a small package or bundle
+n03873416	Synset('paddle.n.04')	a short light oar used without an oarlock to propel a canoe or small boat
+n03877472	Synset('pajama.n.02')	(usually plural) loose-fitting nightclothes worn for sleeping or lounging; have a jacket top and trousers
+n03877845	Synset('palace.n.04')	official residence of an exalted person (as a sovereign)
+n03903868	Synset('pedestal.n.03')	an architectural support or base (as for a column or statue)
+n03916031	Synset('perfume.n.02')	a toiletry that emits and diffuses a fragrant odor
+n03930630	Synset('pickup.n.01')	a light truck with an open body and low sides and a tailboard
+n03933933	Synset('pier.n.03')	a support for two adjacent bridge spans
+n03944341	Synset('pinwheel.n.02')	a wheel that has numerous pins that are set at right angles to its rim
+n03947888	Synset('pirate.n.03')	a ship that is manned by pirates
+n03954731	Synset('plane.n.05')	a carpenter's hand tool with an adjustable blade for smoothing or shaping wood
+n03976657	Synset('pole.n.01')	a long (usually round) rod of wood or metal or plastic
+n03991062	Synset('pot.n.04')	a container in which plants are cultivated
+n04004767	Synset('printer.n.02')	(computer science) an output device that prints the results of data processing
+n04008634	Synset('projectile.n.01')	a weapon that is forcibly thrown or projected at a targets but is not self-propelled
+n04009552	Synset('projector.n.02')	an optical instrument that projects an enlarged image onto a screen
+n04019541	Synset('puck.n.02')	a vulcanized rubber disk 3 inches in diameter that is used instead of a ball in ice hockey
+n04023962	Synset('punching_bag.n.02')	an inflated ball or bag that is suspended and punched for training in boxing
+n04033901	Synset('quill.n.01')	pen made from a bird's feather
+n04037443	Synset('racer.n.02')	a fast car that competes in races
+n04039381	Synset('racket.n.04')	a sports implement (usually consisting of a handle and an oval frame with a tightly interlaced network of strings) used to strike a ball (or shuttlecock) in various games
+n04040759	Synset('radiator.n.03')	a mechanism consisting of a metal honeycomb through which hot fluids circulate; heat is transferred from the fluid through the honeycomb to the airstream that is created either by the motion of the vehicle or by a fan
+n04041544	Synset('radio.n.03')	a communication system based on broadcasting electromagnetic waves
+n04086273	Synset('revolver.n.01')	a pistol with a revolving cylinder (usually having six chambers for bullets)
+n04125021	Synset('safe.n.01')	strongbox where valuables can be safely kept
+n04141076	Synset('sax.n.02')	a single-reed woodwind with a conical bore
+n04147183	Synset('schooner.n.02')	sailing vessel used in former times
+n04152593	Synset('screen.n.03')	the display that is electronically created on the surface of the large end of a cathode-ray tube
+n04153751	Synset('screw.n.04')	a fastener with a tapered threaded shank and a slotted head
+n04208210	Synset('shovel.n.01')	a hand tool for lifting loose material; consists of a curved container or scoop and a handle
+n04243546	Synset('slot.n.07')	a slot machine that is used for gambling
+n04254777	Synset('sock.n.01')	hosiery consisting of a cloth covering for the foot; worn inside the shoe; reaches to between the ankle and the knee
+n04270147	Synset('spatula.n.01')	a turner with a narrow flexible blade
+n04275548	Synset('spider_web.n.01')	a web resembling the webs spun by spiders
+n04286575	Synset('spotlight.n.02')	a lamp that produces a strong beam of light to illuminate a restricted area; used to focus attention of a stage performer
+n04296562	Synset('stage.n.03')	a large platform on which people can stand and can be seen by an audience
+n04330267	Synset('stove.n.02')	any heating apparatus
+n04350905	Synset('suit.n.01')	a set of garments (usually including a jacket and trousers or skirt) for outerwear all of the same fabric and color
+n04367480	Synset('swab.n.02')	cleaning implement consisting of absorbent material fastened to a handle; for cleaning floors
+n04371774	Synset('swing.n.02')	mechanical device used as a plaything to support someone swinging back and forth
+n04372370	Synset('switch.n.01')	control consisting of a mechanical or electrical or electronic device for making or breaking or changing the connections in a circuit
+n04389033	Synset('tank.n.01')	an enclosed armored military vehicle; has a cannon and moves on caterpillar treads
+n04399382	Synset('teddy.n.01')	plaything consisting of a child's toy bear (usually plush and stuffed with soft materials)
+n04404412	Synset('television.n.02')	a telecommunication system that transmits images of objects (stationary or moving) between distant points
+n04428191	Synset('thresher.n.01')	a farm machine for separating seeds or grain from the husks and straw
+n04456115	Synset('torch.n.01')	a light usually carried in the hand; consists of some flammable substance
+n04507155	Synset('umbrella.n.01')	a lightweight handheld collapsible canopy
+n04515003	Synset('upright.n.02')	a piano with a vertical sounding board
+n04517823	Synset('vacuum.n.04')	an electrical home appliance that cleans by suction
+n04523525	Synset('vault.n.03')	an arched brick or stone ceiling or roof
+n04540053	Synset('volleyball.n.02')	an inflated ball used in playing volleyball
+n04550184	Synset('wardrobe.n.01')	a tall piece of furniture that provides storage space for clothes; has a door and rails or hooks for hanging clothes
+n04553703	Synset('washbasin.n.02')	a basin for washing the hands (`wash-hand basin' is a British expression)
+n04554684	Synset('washer.n.03')	a home appliance for washing clothes and linens automatically
+n04597913	Synset('wooden_spoon.n.02')	a spoon made of wood
+n04599235	Synset('wool.n.01')	a fabric made from the hair of sheep
+n04606251	Synset('wreck.n.04')	a ship that has been destroyed at sea
+n04612504	Synset('yawl.n.01')	a ship's small boat (usually rowed by 4 or 6 oars)
+n07565083	Synset('menu.n.02')	the dishes making up a meal
+n07579787	Synset('plate.n.08')	a main course served on a plate
+n07714571	Synset('head_cabbage.n.02')	any of several varieties of cabbage having a large compact globular head; may be steamed or boiled or stir-fried or used raw in coleslaw
+n07714990	Synset('broccoli.n.02')	branched green undeveloped flower heads
+n07717410	Synset('acorn_squash.n.02')	small dark green or yellow ribbed squash with yellow to orange flesh
+n07718472	Synset('cucumber.n.02')	cylindrical green fruit with thin green rind and white flesh eaten as a vegetable; related to melons
+n07718747	Synset('artichoke.n.02')	a thistlelike flower head with edible fleshy leaves and heart
+n07720875	Synset('bell_pepper.n.02')	large bell-shaped sweet pepper in green or red or yellow or orange or black varieties
+n07730033	Synset('cardoon.n.02')	only parts eaten are roots and especially stalks (blanched and used as celery); related to artichokes
+n07734744	Synset('mushroom.n.05')	fleshy body of any of numerous edible fungi
+n07745940	Synset('strawberry.n.01')	sweet fleshy red fruit
+n07747607	Synset('orange.n.01')	round yellow to orange fruit of any of several citrus trees
+n07749582	Synset('lemon.n.01')	yellow oval fruit with juicy acidic flesh
+n07753113	Synset('fig.n.04')	fleshy sweet pear-shaped yellowish or purple multiple fruit eaten fresh or preserved or dried
+n07753592	Synset('banana.n.02')	elongated crescent-shaped yellow fruit with soft sweet flesh
+n07754684	Synset('jackfruit.n.02')	immense East Indian fruit resembling breadfruit; it contains an edible pulp and nutritious seeds that are commonly roasted
+n07760859	Synset('custard_apple.n.02')	the fruit of any of several tropical American trees of the genus Annona having soft edible pulp
+n07768694	Synset('pomegranate.n.02')	large globular fruit having many seeds with juicy red pulp in a tough brownish-red rind
+n07860988	Synset('dough.n.01')	a flour mixture stiff enough to knead or roll
+n07930864	Synset('cup.n.06')	a punch served in a pitcher instead of a punch bowl
+n09229709	Synset('bubble.n.01')	a hollow globule of gas (e.g., air or carbon dioxide)
+n10148035	Synset('groom.n.01')	a man participant in his own marriage ceremony
+n12144580	Synset('corn.n.02')	the dried grains or kernels or corn used as animal feed or ground for meal
+n12620546	Synset('hip.n.05')	the fruit of a rose plant
+n12768682	Synset('buckeye.n.01')	the inedible nutlike seed of the horse chestnut
+n13133613	Synset('ear.n.05')	fruiting spike of a cereal plant especially corn
