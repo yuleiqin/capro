@@ -1,26 +1,32 @@
-# BoPro: Bootstrapping Webly Supervised Prototypical Learning with Visual-Semantic Alignment
-
+# CAPro: Webly Supervised Learning with Cross-modality Aligned Prototypes
+## Submission to NeurIPS 455
 ## Abstract
-Webly supervised learning (WSL) has attracted increasing attention for its impressive effectiveness and efficiency in exploring publicly accessible data at scale without manual annotation.
-Most existing WSL methods,
-however,
-improve performance by scaling up the datasets with noisy web labels,
-which provides suboptimal supervision.
-Besides,
-prior methods on noisy-label learning can only alleviate limited label errors and become subject to semantic misalignment noise,
-where massive examples are with incorrect semantics and unknown concepts.
+Webly supervised learning (WSL) has attracted increasing attention for its impressive effectiveness in exploring publicly accessible data at scale without manual annotation.
+However,
+most existing methods on learning with label noise become subject to realistic noise in web datasets,
+for the simple reason that their assumption on clean samples may not hold true.
+For example,
+web images retrieved by queries of ``tiget cat" and ``drumstick" are almost dominated by images of tiger and chicken dish,
+which exacerbates learning representations for the fine-grained cat species and musical instrument.
+In this case,
+exploitation of both web images and their associated texts turns out to be a feasible-and-requisite solution to combat noise of various kinds.
 In this paper,
-we propose BoPro, a prototypical learning method to effectively tackle various real-world noise on large-scale web data.
-It exploits visual and semantic alignment in a unified supervised and contrastive learning framework.
-First,
-BoPro utilizes textual knowledge to pinpoint anchor prototypes whose visual contents are consistent with correct semantics,
-which disambiguates for cluster regularization.
-Second,
-BoPro realizes collective bootstrapping in a manner of dictionary look-up to encourage smoother and wiser prediction reference by visually-similar instances.
-Experiments on WebVision1k and NUS-WIDE demonstrate that BoPro handles realistic noise for learning representations under both single- and multi-label scenarios.
+we propose cross-modality aligned prototypes (CAPro),
+a unified prototypical contrastive learning framework for learning representations with correct semantics.
+For one thing,
+we leverage textual prototypes,
+which stem from the distinct concept definition of classes,
+to select clean web images by text matching and thus disambiguate the formation of visual prototypes.
+For another,
+to handle missing and mismatched noisy texts,
+we resort to visual data structure to complete and enhance individual text and thereafter improve text matching in return.
+Such semantically aligned visual prototypes are consistently polished by high quality web images,
+and engage in both cluster regularization and noise removal.
+Besides,
+we propose collective bootstrapping to encourage smoother and wiser label reference from appearance-similar instances in a manner of dictionary look-up.
+Extensive experiments on WebVision1k and NUS-WIDE demonstrate that CAPro well handles realistic noise under both single-label and multi-label scenarios and achieves the state-of-the-art performance.
 Moreover,
-BoPro exhibits robustness to open-set recognition.
-<!-- Codes and models will be available at \url{https://anonymous.4open.science/r/BoPro-F1D2}. -->
+CAPro exhibits robustness to open-set recognition.
 
 ## Illustration of Cross-Modality Alignment and Collective Bootstrapping
 ![visualization](./imgs/1.png "We propose to explore cross-modality alignment (left) to reduce all kinds of noise including semantic noise, and collective bootstrapping (right) for label reference and regularization.")
