@@ -32,10 +32,10 @@ def JSD(p, q, reduction="batchmean"):
         F.kl_div(log_mean_output, q, reduction=reduction))
 
 
-class BoPro(nn.Module):
+class CAPro(nn.Module):
 
     def __init__(self, args):
-        super(BoPro, self).__init__()
+        super(CAPro, self).__init__()
         ##=========================================================================##
         ## 设置特征抽取器
         ##=========================================================================##

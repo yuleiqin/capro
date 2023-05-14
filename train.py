@@ -23,7 +23,7 @@ import torchvision.datasets as datasets
 import torch.nn.functional as F
 from tqdm import tqdm
 from config_train import parser
-from model import BoPro, init_weights, concat_all_gather
+from model import CAPro, init_weights, concat_all_gather
 from utils.metric_multilabel import precision_recall_map, sigmoid_loss_with_posweight
 import DataLoader.nuswide_dataset as nuswide
 import DataLoader.webvision_dataset as webvision
@@ -145,7 +145,7 @@ def main_worker(gpu, ngpus_per_node, args):
                                 world_size=args.world_size, rank=args.rank)
     ## create model
     print("=> creating model '{}'".format(args.arch))
-    model = BoPro(args)
+    model = CAPro(args)
     if not args.pretrained:
         ## 如果不使用预训练参数则需要随机初始化
         model.apply(init_weights)
