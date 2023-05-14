@@ -1,26 +1,26 @@
 # CAPro: Webly Supervised Learning with Cross-modality Aligned Prototypes
 ## Submission to NeurIPS 455
 ## Abstract
-Webly supervised learning (WSL) has attracted increasing attention for its impressive effectiveness in exploring publicly accessible data at scale without manual annotation.
+Webly supervised learning has attracted increasing attention for its effectiveness in exploring publicly accessible data at scale without manual annotation.
 However,
-most existing methods on learning with label noise become subject to realistic noise in web datasets,
+most existing methods on learning with label noise become subject to real-world noise in web datasets,
 for the simple reason that their assumption on clean samples may not hold true.
 For example,
-web images retrieved by queries of ``tiget cat`` and ``drumstick`` are almost dominated by images of tiger and chicken dish,
+web images retrieved by queries of ``tiget cat" and ``drumstick" are almost dominated by images of tiger and chicken,
 which exacerbates learning representations for the fine-grained cat species and musical instrument.
 In this case,
-exploitation of both web images and their associated texts turns out to be a feasible-and-requisite solution to combat noise of various kinds.
+exploitation of both web images and their associated texts turns out to be a requisite solution to combat noise of various kinds.
 In this paper,
 we propose cross-modality aligned prototypes (CAPro),
 a unified prototypical contrastive learning framework for learning representations with correct semantics.
 For one thing,
 we leverage textual prototypes,
 which stem from the distinct concept definition of classes,
-to select clean web images by text matching and thus disambiguate the formation of visual prototypes.
+to select clean images by text matching and thus disambiguate the formation of visual prototypes.
 For another,
 to handle missing and mismatched noisy texts,
 we resort to visual data structure to complete and enhance individual text and thereafter improve text matching in return.
-Such semantically aligned visual prototypes are consistently polished by high quality web images,
+Such semantically aligned visual prototypes are consistently polished by high quality images,
 and engage in both cluster regularization and noise removal.
 Besides,
 we propose collective bootstrapping to encourage smoother and wiser label reference from appearance-similar instances in a manner of dictionary look-up.
@@ -28,8 +28,11 @@ Extensive experiments on WebVision1k and NUS-WIDE demonstrate that CAPro well ha
 Moreover,
 CAPro exhibits robustness to open-set recognition.
 
+
 ## Illustration of Cross-Modality Alignment and Collective Bootstrapping
-![visualization](./imgs/1.png "We propose to explore cross-modality alignment (left) to reduce all kinds of noise including semantic noise, and collective bootstrapping (right) for label reference and regularization.")
+![visualization](./imgs/1.png "We explore cross-modality alignment (a) to maintain semantically correct visual prototypes for noise reduction.
+Collective bootstrapping (b) provides consistent label reference and regularization.
+Our advantage (c) is highlighted in classes where semantic noise prevails due to polysemy concepts.")
 
 ## Overview of BoPro Architecture
 ![overview](./imgs/2.png "Overview of BoPro. Image encoders, projector, and classifiers are trained to learn the low-dimensional embedding space. Visual prototypes are initialized with anchors which are selected by matching denoised metadata to textual prototypes for semantic alignment. Prototypical contrastive learning is performed to constrain cluster distribution and visual prototypes are constantly polished with clean examples. In addition to instance-wise contrastive learning, the visual dictionary is exploited in collective bootstrapping where each of its key embeddings is matched to the query image for reference and regularization. Web labels are simultaneously adjusted to remove noise.")
